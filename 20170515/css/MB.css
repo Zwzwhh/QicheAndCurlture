@@ -1,0 +1,407 @@
+@media screen and (max-width: 768px) {
+    .MB{
+        display: block !important;
+    }
+    .PC{
+        display: none !important;
+    }
+    a, b, body, canvas, dd, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html,
+    fieldset, img, input, label,ul, li, ol, p, q, span{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        list-style: none;
+    }
+    body, html{
+        font-size: 20px;
+        font-family: 'Microsoft YaHei';
+    }
+    h1{
+        font-size: 2rem;
+    }
+    body{
+        background: url("../images/htmlBj.png");
+    }
+    button{cursor: pointer;}
+    a{
+        color:#666;
+        text-decoration: none;
+    }
+    a:hover{
+        color:#666;
+        text-decoration: none;
+    }
+    .cl{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .lf{
+        float:left;
+    }
+    .rt{
+        float:right;
+    }
+    .center{
+        text-align: center;
+    }
+
+    .hide {
+        display: none;
+    }
+    .bl{
+        display: block;
+        width:100%;
+    }
+    /*头部*/
+    .LOGO {
+        width: 85%;
+    }
+    .LOGO>img{
+        width:100%;
+    }
+    .menuBtn {
+        padding-right: 5.5%;
+        width: 5.5%;
+        margin-top: 7%;
+    }
+    .menuBtn>img{
+        width:100%;
+    }
+    /*头部导航*/
+    .navMenu {
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding-left: 1.8rem;
+        z-index: 100;
+        background: rgba(0, 0, 0, 1);
+    }
+    .navMenu .menuHead {
+        width:100%;
+        margin-top: 1.8rem;
+        margin-bottom: 1.4rem;
+    }
+    .navMenu .menuL {
+        font-size: .8rem;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .navMenu .menuL, .navMenu .menuClose {
+        width: 46%;
+        color: #ffffff;
+        float: left;
+    }
+    .navMenu .menuClose {
+        text-align: right;
+        margin-top:-.3rem;
+    }
+    .navMenu .menuClose img {
+        vertical-align: bottom;
+        width: 22%;
+    }
+    .navMenu .menuBar>li {
+        color: #fefefe;
+        border-bottom: 1px solid #393939;
+    }
+    .menuBar>li>a {
+        display: block;
+        padding: .8rem 0;
+        font-size: .8rem;
+    }
+    .navMenu .menuSub>li>a {
+        display: block;
+        padding-bottom: .5rem;
+        font-size: .7rem;
+        padding-left: 10%;
+        background: url("../images/point.png") 0 3px no-repeat;
+    }
+    /*搜索框*/
+    .searchMb{
+        width:100%;
+    }
+    .searchMb img{
+        width:100%;
+        float:left;
+        z-index: 1;
+    }
+    .searchMb input{
+        width:9rem;
+        height:1.9rem;
+        border:1px solid #E4D8CB;
+        border-right:none;
+        outline: none;
+        padding-left:.4rem;
+        color:#B6B6B6;
+        font-size:1rem;
+        float:right;
+        margin-top:-18%;
+        margin-right:11%;
+        z-index:20;
+    }
+    .searchMb button{
+        width: 2rem;
+        height:2rem;
+        border:1px solid #A08060;
+        background: url("../images/icon.png") no-repeat 11px 10px #A98E72;
+        float:right;
+        margin-top:-18%;
+        margin-right:5%;
+        border-left:none;
+        outline: none;
+        z-index:20;
+    }
+
+    .section,.ftMb{
+        width:92%;
+        margin:0 auto;
+    }
+    /*通知*/
+    .noticeHeader{
+        width:100%;
+        line-height:5rem;
+        margin:0 auto;
+    }
+    .noticeHeader>h1,.MbHeader>h1{
+        width:5.5rem;
+        height:6rem;
+        background: url("../images/titSub.png") no-repeat 0 100%;
+        background-size: contain;
+        color:#333;
+        font-size: 1.3rem;
+        line-height:7rem;
+        font-family: "Microsoft YaHei";
+        font-weight: normal;
+        text-align: center;
+    }
+    .noticeHeader>a{
+        color:#bbb;
+        font-size:1.1rem;
+        padding-right:2rem;
+        background: url("../images/icon.png") no-repeat 55px -69px;
+    }
+    .noticeHeader>h1{
+        height:5rem;
+        line-height:5rem;
+    }
+    .noticeSection{
+        background: #EFEBE8;
+        padding:1.5rem 1rem;
+    }
+    .noticeSection>a,.noticeSection img{
+        display:block;
+        width:100%;
+    }
+    .noticeSection>h3 a{
+        display: block;
+        font-size: 1rem;
+        color:#454545;
+        line-height: 1.5rem;
+        margin:.75rem 0.27rem;
+        max-height:3.5rem;
+        overflow: hidden;
+    }
+    .noticeSection>p{
+        font-size: .8rem;
+        color:#999;
+        max-height:3.5rem;
+        overflow: hidden;
+        line-height: 1.2rem;
+    }
+    a.look{
+        display: block;
+        font-size: .7rem;
+        color:#6c6f74;
+        line-height: 2rem;
+        padding-left:1.5rem;
+        background: url("../images/icon.png") no-repeat 2px -193px;
+    }
+    /*著作*/
+    .MbHeader{
+        width:100%;
+        height:6rem;
+        line-height: 6rem;
+        border-bottom:1px solid #D6D6D6;
+    }
+    .zzList{
+        width:100%;
+    }
+    .zzList li,.photo li,.imgMb li{
+        width:45%;
+        float:left;
+        margin:1.5rem .4rem 0;
+        text-align: center;
+    }
+    .zzList li>a,.zzList li img{
+        display: block;
+        width:100%;
+    }
+    .zzList li>p{
+        max-height:7rem;
+        overflow: hidden;
+        font-size: 1rem;
+        color:#999;
+        line-height: 1.2rem;
+    }
+    .more{
+        display: block;
+        background: #ECECEC;
+        width:7.8rem;
+        margin: .75rem auto;
+        height:2rem;
+        border:2px solid #ccc;
+        font-size: 1rem;
+        color:#333;
+        text-align: center;
+        line-height: 2rem;
+    }
+    /*编辑*/
+    .bjMb li{
+        padding:1rem 0;
+        border-bottom:1px solid #E8E8E8;
+    }
+    .bjMb li>a{
+        width:30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .bjMb li>div{
+        width: 65%;
+        display: inline-block;
+        margin-left: 3%;
+    }
+    .bjMb li h3{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .bjMb li p{
+        max-height:4rem;
+        overflow: hidden;
+        font-size: .7rem;
+        color:#999;
+    }
+    /*教学/文章/项目*/
+
+    .sidebarL0{
+        width:100%;
+        text-align: left;
+        overflow: hidden;
+    }
+    .sidebarL0 .hd li{
+        width: 5rem;
+        text-align: center;
+        float:left;
+        height:6rem;
+        line-height:7rem ;
+        cursor:pointer;
+        color:#666;
+        font-size: 1.3rem;
+        background: url("../images/titSub.png") no-repeat 100% 100%;
+        background-size: contain;
+    }
+    .sidebarL0 .hd li.on{
+        color:#fff ;
+        background: url("../images/titSubA.png") no-repeat 100% 100%;
+        background-size: contain;
+    }
+    .sidebarM0 li{
+        width: 100%;
+        line-height:1.5rem;
+        padding:1rem 0;
+        border-bottom: 1px solid #E7E7E7;
+    }
+    .sidebarM0 li span{
+        display: inline-block;
+        width:12%;
+        height:2rem;
+        background: url("../images/hu.png") no-repeat ;
+        vertical-align: top;
+    }
+    .sidebarM0 li a{
+        display:inline-block;
+        width:84%;
+        max-height:3rem;
+        overflow: hidden;
+    }
+    /*照片*/
+    .photo li span,.imgMb li span{
+        font-size: 1rem;
+        color: #454545;
+        line-height: 1.5rem;
+    }
+    /*页尾*/
+    .footMb{
+        width:100%;
+        background: #E1DEDE;
+        padding:1.5rem 0 1.3rem;
+        color:#59413e;
+    }
+    .ftMb ul{
+        margin:0 auto .7rem;
+    }
+    .ftMb ul li{
+        float:left;
+        width:32%;
+        text-align: center;
+        color:#59413e;
+        line-height: 1.3rem;
+    }
+    .ftMb ul li a{
+        display: inline-block;
+        color:#59413e;
+    }
+    .ftMb p{
+        width:100%;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .ftMb div{
+        width:100%;
+        text-align: center;
+        padding:1rem 0;
+    }
+    .ftMb div a{
+        margin:0 1rem;
+    }
+    /*列表页*/
+    .listMb li{
+        padding:1rem 0;
+        border-bottom:1px solid #E8E8E8;
+    }
+    .listMb li>a{
+        width:80%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .listMb li>div{
+        width: 65%;
+        display: inline-block;
+        margin-left: 3%;
+    }
+    .listMb li h3{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .listMb li p{
+        max-height:4rem;
+        overflow: hidden;
+        font-size: .7rem;
+        color:#999;
+    }
+
+    .MbHeader>div{line-height:0;margin-top:5rem;}
+    /*文章页*/
+    .articleMb h2{
+        text-align: center;
+        font-size: 1.5rem;
+        width: 100%;
+        line-height: 3rem;
+    }
+    .articleMb p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
